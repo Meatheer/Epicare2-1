@@ -53,8 +53,8 @@ class Welcome extends StatelessWidget {
                   ),
                   Image.asset(
                     "assets/imges/im1.jpg",
-                  width: 150,
-                  height: 150,
+                    width: 150,
+                    height: 150,
                   ),
                   SizedBox(
                     height: 40,
@@ -83,7 +83,10 @@ class Welcome extends StatelessWidget {
                   Text(
                     "التي تستحقها",
                     style: TextStyle(
-                        fontSize: 30, wordSpacing: .5,color: Color.fromARGB(200, 0, 0, 0),fontWeight: FontWeight.bold),
+                        fontSize: 30,
+                        wordSpacing: .5,
+                        color: Color.fromARGB(200, 0, 0, 0),
+                        fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   )
                 ],
